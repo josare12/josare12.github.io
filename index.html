@@ -15,7 +15,7 @@
       position: absolute;
       left: 300px;
       top: -100px; /* Adjust this value to move the sprite higher or lower */
-      transform: translate(600px, 400px);
+      transform: translate(900px, 400px);
       transform-origin: top left;
       width: 100px;
       height: 150px;
@@ -57,15 +57,17 @@
   <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
 
   <button onclick="runCode()">Run</button>
+  <button onclick="copyCode()">Copy Code</button>
   <button onclick="showCode()">Show Code</button>
+  <button onclick="saveCode()">Save Code</button>
 
-  <div id ="generatedText"> Code Output</div>
+  <div id ="generatedText"> Generated JavaScript</div>
 
   <div id="output">
     <pre id="codeOutput"></pre>
   </div>
 
   <script src="https://unpkg.com/blockly/javascript_compressed.js"></script>
-  <script src="main.js"></script>
+  <script src="design-blocks.js"></script>
 </body>
 </html>
