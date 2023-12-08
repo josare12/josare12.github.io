@@ -622,12 +622,10 @@ alert('Code copied to clipboard');
 
 // Function to show the generated JavaScript code
 function showCode() {
-// Generate JavaScript code.
-Blockly.JavaScript.INFINITE_LOOP_TRAP = null; // Set infinite loop trap to null
+Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
 var code = Blockly.JavaScript.workspaceToCode(workspace);
 
-// Display the code in an alert box.
-alert(code);
+document.getElementById('generatedText').innerText = code;
 }
 
 // Function to save the generated JavaScript code
