@@ -25,4 +25,4 @@
 
 # Easier way of Running Project
 
-1.   For a much easier way of running this same project, you can go to this site [here](josare12.github.io). The project run directly through the repository on Github's servers, so that this way you don't need to download anything locally to run on your own computer. 
+1.   For a much easier way of running this same project, you can go to this site [here](https://josare12.github.io/). The project run directly through the repository on Github's servers, so that this way you don't need to download anything locally to run on your own computer. 
